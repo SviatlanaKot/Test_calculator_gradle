@@ -12,7 +12,7 @@ public class MobileCapabilities {
         if (instance == null) {
             instance = new DesiredCapabilities();
             instance.setCapability("platformName", "Android");
-            instance.setCapability("deviceName", "Pixel 8 pro API 30");
+            instance.setCapability("deviceName", "Pixel 8 API 31");
             instance.setCapability("appPackage", "com.google.android.calculator");
             instance.setCapability("appActivity", "com.android.calculator2.Calculator");
             instance.setCapability("no_reset", true);
